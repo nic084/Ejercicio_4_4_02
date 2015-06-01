@@ -15,12 +15,34 @@ namespace Ejercicio_4_4_02
             this.colorPelo02 = colorPelo;
             this.peso02 = peso;
         }
-
         private int peso02;
+
+        public int Peso02
+        {
+            get { return peso02; }
+            set { peso02 = value; }
+        }
         private int altura02;
+
+        public int Altura02
+        {
+            get { return altura02; }
+            set { altura02 = value; }
+        }
         private string colorOjos02;
+
+        public string ColorOjos02
+        {
+            get { return colorOjos02; }
+            set { colorOjos02 = value; }
+        }
         private string colorPelo02;
 
+        public string ColorPelo02
+        {
+            get { return colorPelo02; }
+            set { colorPelo02 = value; }
+        }
 
         public void PonerLentillas02(string colorLentillas)
         {
